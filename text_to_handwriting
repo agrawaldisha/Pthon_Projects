@@ -1,0 +1,6 @@
+#text to hand-writing sheet
+import pywhatkit as pw
+txt=""" https://github.com/AIAnytime/Image-Caption-Generator-App"""
+pw.text_to_handwriting(txt,"demo1.png",[0,0,138])
+print("END")
+
